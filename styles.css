@@ -1,0 +1,119 @@
+/* simple selector */
+
+/* h1 {
+    color: powderblue;
+    background-color: rgb(225, 94, 94);
+}
+
+#para1 {
+    color:blueviolet ;
+    background-color: bisque;
+}
+
+.para2 {
+    color: aqua;
+    background-color: burlywood;
+}
+
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: aquamarine;
+} */
+
+
+.herotext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* combination selector */
+/* 
+div>h1 {
+    color:blueviolet
+}
+
+div h1 {
+    color: brown;
+}
+
+div+p{
+    color: blueviolet;
+    background-color: beige;
+}
+
+p~h3{
+    color: aqua;
+    background-color: chartreuse;
+} */
+
+/* .btn-test{
+    color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: crimson;
+}
+
+.btn-test:hover{
+    background-color: rgb(224, 55, 89);
+    color: green;
+}
+
+.btn-test:active{
+    background-color: aliceblue;
+    color: black;
+}
+
+.link-test:hover{
+    color: rgb(129, 129, 246);
+}
+
+.link-test:active{
+    color: red;
+}
+
+.link-test:link{
+    color: chocolate;
+}
+
+.link-test:visited{
+    color: black;
+} */
+
+
+
+
+/* #heading{
+    color: red;
+} */
+
+/* .heading1{
+    color:green;
+}
+
+h1{
+    color: blue;
+} */
+
+
+body{
+    /* background-color: blueviolet;
+    background-image: url('./laptop-gf19b3cc32_1280.png');
+    background-repeat:  repeat-x;
+    background-attachment: fixed; */
+    /* background-position: ; */
+    background: url('./laptop-gf19b3cc32_1280.png') no-repeat ;
+}
+
+.heading1{
+    margin: 5px ;
+    /* border-style:solid;
+    border-width: 0.05em;
+    border-color: brown; */
+    border: solid 0.07em blue;
+    padding: 2px;
+    text-align: right;
+    text-transform: lowercase;
+    font-family:cursive;
+    font-size: medium;
+    font-weight: 1000;
+}
+
