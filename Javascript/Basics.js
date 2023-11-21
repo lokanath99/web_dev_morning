@@ -125,8 +125,52 @@
 // } while (k<5)//condition check
 
 a = [5,6,5,9,5,6,9]
-// a[k]
-for (k = 0; k < a.length; k+=2){
-    console.log(a[k]);
+// // a[k]
+// for (k = 0; k < a.length; k+=2){
+//     console.log(a[k]);
+// }
+
+dict = {0: "there", 1: "there"}
+
+// for (x in a){
+//     console.log(a[x])
+// }//X iterate through the index/ keys
+
+// a.forEach(e => {
+//     console.log(e)
+// });
+
+// for (x of a){
+//     console.log(x)
+// }//x will itirate through the element
+
+
+
+// var febk = myDisp() 
+// console.log(febk);
+
+
+function myCalc(a, b, calbk){
+    let sum = a+b;
+    calbk(sum);
+    // return sum;
 }
 
+// function myDisp(mess){
+//     console.log(mess);
+//     return "message printed"
+// }
+
+// function yourDisp(mess){
+//     console.log('from your Disp: '+mess);
+// }
+
+// myCalc(5,6, (sum)=>{
+//     console.log('this is anonymus function '+ sum);
+// });
+
+// var add = (a, b)=>{
+//     console.log(a+b);
+// }
+
+// add(5,6);
