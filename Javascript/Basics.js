@@ -100,14 +100,13 @@
 //     console.log("its an odd num");
 // }
 
-
 // var key = 3;
 // switch (key) {
 //     case 1:
 //         console.log('its one')
 //         break;
-    
-//     case 2: 
+
+//     case 2:
 //         console.log('its two')
 //         break;
 
@@ -124,13 +123,13 @@
 //     k++;// incrementation
 // } while (k<5)//condition check
 
-a = [5,6,5,9,5,6,9]
+a = [5, 6, 5, 9, 5, 6, 9];
 // // a[k]
 // for (k = 0; k < a.length; k+=2){
 //     console.log(a[k]);
 // }
 
-dict = {0: "there", 1: "there"}
+dict = { 0: "there", 1: "there" };
 
 // for (x in a){
 //     console.log(a[x])
@@ -144,14 +143,11 @@ dict = {0: "there", 1: "there"}
 //     console.log(x)
 // }//x will itirate through the element
 
-
-
-// var febk = myDisp() 
+// var febk = myDisp()
 // console.log(febk);
 
-
-function myCalc(a, b, calbk){
-    let sum = a+b;
+function myCalc(a, b, calbk) {
+    let sum = a + b;
     calbk(sum);
     // return sum;
 }
@@ -174,3 +170,14 @@ function myCalc(a, b, calbk){
 // }
 
 // add(5,6);
+
+a = 3;
+
+// if (a) {
+//     console.log("a was true");
+// } else {
+//     console.log("a was false");
+// }
+
+// ternary operator
+a%2 === 0 ? console.log("a was even") : console.log("a was odd");
